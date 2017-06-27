@@ -25,6 +25,8 @@ You should now be able change directory to your documents folder by going to you
 
 #### Making a Permanent Alias
 
+##### Make an Alias to open your .bash_profile
+
 I'm always forgetting how to locate my ```.bash_profile```, so lets make a permanent alias to open it with ease.
 
 The code below ascribes to the variable ```bash_profile``` the command line ```open``` with the location of the ```.bash_profile``` file.
@@ -34,6 +36,18 @@ alias bash_profile='open ~/.bash_profile'
 ```
 
 Now you can open your ```.bash_profile``` by going to terminal, typing ```bash_profile``` and pressing enter.
+
+##### Make an Alias to Open Your Preferred Text Editor
+
+When you install your editor it may provide you with a terminal shortcut to open it, and to use it to open files/directories. If your editor does not make this available, you can achieve the same by creating an alias.
+
+For example to create an alias to open Sublime, save the following code in your ```.bash_profile``` (make sure you use the correct directory).
+
+```
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+```
+
+Now when you type ```subl``` in terminal and press enter you can directly open Sublime. You can also type ```subl [FILE/DIRECTORY]``` to open a specific file/directory in Sublime.
 
 ## Install using a package manager
 ### Instructions for Mac

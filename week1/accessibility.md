@@ -24,7 +24,9 @@ A "Modal" is a dialog box, when opened it stops the user from interacting with t
 _What makes an accessible "Modal"?_
 
 An accessible "Modal" allows the following keyboard interactions:
+
 Tab:
+
 Moves focus to the next focusable element inside the dialog.
 If focus is on the last element, moves focus to the first focusable element inside the dialog.  
 Shift + Tab:

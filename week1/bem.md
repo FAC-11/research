@@ -9,7 +9,7 @@ First, let's divide it into 3:
    __Syntax: .navbar{}__  
    (Our house)      
 * Element: A part of a block, with no meaning on itself. Ex: menu item, list item  
-  __Syntax: .navbar__menu-item{}__      
+  __Syntax: .navbar__menu-item{}__     
   (The building block of our house)      
 * Modifier: A way to target the element or the block in order to change its style/behaviour. Ex: orange, big;        
   __Syntax: .navbar--orange__  

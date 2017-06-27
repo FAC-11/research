@@ -1,11 +1,10 @@
 ## How to write BEM with CSS?  
-### Why would you use BEM?  
-In larger projects it could be difficult to keep track of all the css classes and what they relate to.
-Without this kind of system it becomes harder for other people to read your code and for you to change it if necessary.  
-BEM - Block, Element, Modifier - is a methodology for naming your css classes that will make your code
-more explicit and descriptive.
--How you use it?  
-First, let's divide it into:  
+### Why would you use BEM?    
+In larger projects it could be difficult to keep track of all the css classes and what they relate to.  
+Without this kind of system it becomes harder for other people to read your code and for you to change it if necessary.    
+BEM - Block, Element, Modifier - is a methodology for naming your css classes that will make your code more explicit and descriptive.  
+-How you use it?    
+First, let's divide it into:    
 * Block: A parent category with meaning on its own. __Ex: navbar, header, form__ .    
    __Syntax: .navbar{}__    
    __Our house__    

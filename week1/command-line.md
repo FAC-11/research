@@ -42,8 +42,11 @@ Now you can open your ```.bash_profile``` by going to terminal, typing ```bash_p
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 Visit the [Homebrew website](https://brew.sh/) for more information.
+
 2. Check if it's installed and working properly by typing `brew doctor` into the command line.
+
 3. To check for updates, use the command line prompt `brew update`.
+
 4. If you're looking to install graphical apps (e.g. Chrome), you'll need to download Homebrew cask.
 ```
 brew install caskroom/cask/brew-cask

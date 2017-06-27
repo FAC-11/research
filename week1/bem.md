@@ -1,5 +1,5 @@
-HOW TO WRITE CSS WITH BEM?
-Why would you use BEM?
+HOW TO WRITE CSS WITH BEM?  
+Why would you use BEM?  
 In larger projects it could be difficult to keep track of all the css classes and what they relate to.
 Without this kind of system it becomes harder for other people to read your code
 and for you to change it if necessary.

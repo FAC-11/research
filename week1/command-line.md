@@ -6,7 +6,12 @@
 
 ### Make an 'Alias' (shortcut)
 
-An 'alias' is just a shortcut for executing some command. For example, we can create an alias for a commonly used file or directory. A temporary alias is created from command line and only endures for the current terminal session. A permanent alias is saved within your ```.bash_profile```. 
+An 'alias' is just a shortcut for executing some command. For example, we can create an alias for a commonly used file or directory. A temporary alias is created from command line and only endures for the current terminal session. A permanent alias is saved within your ```.bash_profile```.
+
+An alias follows the general form:
+```
+alias new_name='command to be performed'
+```
 
 #### Making a Temporary Alias
 

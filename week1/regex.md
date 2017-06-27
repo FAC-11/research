@@ -30,3 +30,9 @@ If you want to use any of these characters as a literal in a regex, you need to 
  - \$ Matches the end of the string. For example, /t$/ does not match the 't' in "eater", but does match it in "eat".
  - ^ Matches the beginning of a string. For example, /^A/ does not match the 'A' in "an A", but does match the 'A' in "An E".
  - [^a-z] When inside of a character class, the ^ means NOT; in this case, match anything that is NOT a lowercase letter.
+ 
+A useful tool for creating regular expressions is [regex101](https://regex101.com).
+It also has a library with already published regular expressions from other users -anyone can make an account and contribute his own code as well as vote up or down on.
+Other resources:
+[regexpr](http://regexr.com/)
+[regextester](http://www.regextester.com/)

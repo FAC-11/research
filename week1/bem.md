@@ -17,6 +17,6 @@ First, let's divide it into 3:
    ( The building blocks )      
 * __Modifier__: A way to target the element or the block in order to change its style/behaviour. Eg: orange, big       
   __Syntax__: use two hyphens.  
-  *CSS* .navbar--orange {};  
-  *HTML* <nav class="navbar--orange">
+  *CSS* `.navbar--orange {};`  
+  *HTML* `<nav class="navbar--orange">`  
   ( One of the bricks, painted red )

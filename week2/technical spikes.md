@@ -3,6 +3,11 @@
 ## What is a technical spike?
 You would use a spike to figure out answers to tough technical or design problems. A spike solution is a very simple program to explore potential solutions. Spike are only built to address the problem under examination and ignore all other concerns. Most spikes are not good enough to keep, so expect to throw it away. Spikes are used for stories or outcomes which the time or cost cannot be estimated until they are  investigated and the goal is reducing the risk of a technical problem or increasing the reliability of a user story's estimate.
 
+
+Broadly:
+analysis of the overview and breaking into tasks is a _functional spike_
+gaining new information on proposed or prototyped implementation and strategy is a _technical spike_
+
 ## When and why would you use a spike?
 * When a technical difficulty threatens to hold up the system's development put a pair of developers on the problem for a week or two and reduce the potential risk
 * If your team is having trouble on estimating the size of the user stories 
@@ -27,11 +32,6 @@ For example:
 * Dividing up tasks by first analysing the problem to be solved
 * Uncovering new issues.
 
-Broadly:
-Analysis of the overview and breaking into tasks is a ** functional spike ** 
-Gaining new information on proposed or prototyped implementation and strategy is a ** technical spike ** 
-
-Technical spikes are used to ......
 
 
 

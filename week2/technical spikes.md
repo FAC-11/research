@@ -19,10 +19,28 @@ gaining new information on proposed or prototyped implementation and strategy is
 *    If accurate estimates are crucial because there is no contigency for project overrun.
     
  *   In building a complex architecture to allow the architecture to develop rather than being fully designed upfront as BUFD.
-
+ *   Mitigating risk: Our customers frequently come to us with an idea and, under tight time constraints, we need to validate that we can develop a component using a technology that we’re not entirely familiar with as it is impossible to keep up with all of the technologies out there. We don’t want to make any promises we can’t keep. Undertaking projects with bad assumptions can turn out badly. It can be very unsatisfying for a client, very damaging to our reputation, and very expensive for both of us. This is an inherent risk in development. Focused technical spikes are a great way to mitigate this risk.
+  
 
 
 ## How would you successfully spike on a topic
+ 1. Define a goal
+The most important thing to do when spiking a solution is to define your goal. Defining a goal provides focus. Without focus, you’ll waste valuable time doing too much. Remember, you’re singular purpose is to vet a solution. You want to gain confidence that you can accomplish something, not actually accomplish it. Remember, code developed during most spikes is meant to be thrown away. If you find, given the constraints of the project, that you can’t accomplish a task, you’ve done your client a huge service.
+
+Our goal was to determine if we could use conditional formatting inside of Excel through axlsx. Lucky for us, axlsx is very well documented and contains a lot of examples. While it did not cover all of our needs, there was an even an example for conditional formatting.
+
+2. Limit your scope
+Just because your spike isn’t meant to deliver production ready code, doesn’t mean you shouldn’t start with a plan. The more you intentionally you limit the scope of your spike from the beginning, the faster you can move towards your goal. What is really important? What knowns can be faked out, simulated, or stubbed to more quickly vet the unknowns?
+
+As a very critical person, I’m always looking back and trying to see how things could have gone wrong. Our spike could have quickly outgrown our two-hour timebox by trying to do too much. Instead of working outside of the application with a constant / independent data set, we could have tried to integrate our work into the applicaiton. Integrating with the existing application would have required understanding the data model. We could have also lost focus and tried to actually implement the entire report, rather than ensuring that we could achieve our main goal, conditional formatting.
+
+3. If the goal is too broad repeat, if not evaluate the solution
+The high-level goal for us was to determine if we can build an Excel reporting component. After we determined that we could in fact write out Excel files, we then had to determine if we could use conditional formatting. Once we found a library that supported conditional formatting, we needed to determine if we could use it for our purposes.
+
+By ensuring that we had a small, focused, and independent goal we were able to make sure that axlsx was able to meet our needs. Doing so allowed us to move forward with greater confidence that we could meet our customer’s deadline.
+ 
+ ----
+ 
  
 You would pair with someone but spike with different approaches to solve the same problem. Each will research and code independently and compare their notes during the day.
 

@@ -57,9 +57,9 @@ Alternatively you can insert the below line into the scripts section of your pac
 >
 > npm run coverage
 
-This will create a directory in your project called coverage where you will find the generated coverage reports. In this case: learn-istanbul/coverage/lcov-report/learning-istanbul/romaniser.test.js.html
+This will create a directory in your project called coverage where you will find the generated coverage reports. 
 
-How instanbul works:
+How istanbul works:
 --------------------
 
 Istanbul gives us four code coverage metrics:
@@ -78,7 +78,7 @@ In our TDD romaniser example we have 100% coverage because all of our code is be
 
 
 ## Use Istanbul/nyc to calculate your code coverage for the TDD workshop.
-See Aisha and Rebeca's demonstration!
+See demonstration!
 
 Here's Istanbul in use in a browser:
 ![Screenshot1](./images/using-istanbul-in-browser.png)

@@ -1,15 +1,15 @@
 # Test Coverage
 ## What is test coverage?
-*Test coverage* is a measure of how much of the code you've written is being executed by the your _testing framework_.
+**Test coverage** is a measure of how much of the code you've written is being executed when you run your _testing framework_.
 
 So if your test coverage is 100%, every line of your code is invoked when you are running your tests.
 
 ## Why is test coverage useful?
 If you have code that isn't tested when you run your test framework, it can create several problems:
 
-* untested code can behave in unexpected ways, creating *bugs*
-* untested features can be difficult to maintain without making changes that *break the rest of the code*
-* untested code, if it's not needed, can clutter a project and create more problems if you need to fix it later on
+* untested code can behave in unexpected ways, creating **bugs**
+* untested features can be difficult to maintain without making changes that **break the rest of the code**
+* untested code, if it's not needed, can **clutter** a project and **create more problems** if you need to fix it later on
 
 ## What are Istanbul and nyc?
 

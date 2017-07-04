@@ -25,15 +25,13 @@ gaining new information on proposed or prototyped implementation and strategy is
 
 ## How would you successfully spike on a topic
 
-    Define a goal The most important thing to do when spiking a solution is to define your goal. Defining a goal provides focus. Without focus, you’ll waste valuable time doing too much. Remember, you’re singular purpose is to vet a solution. You want to gain confidence that you can accomplish something, not actually accomplish it. Remember, code developed during most spikes is meant to be thrown away. If you find, given the constraints of the project, that you can’t accomplish a task, you’ve done your client a huge service.
+  *  Define a goal The most important thing to do when spiking a solution is to define your goal. Defining a goal provides focus. Without focus, you’ll waste valuable time doing too much. Remember, you’re singular purpose is to vet a solution. You want to gain confidence that you can accomplish something, not actually accomplish it. Remember, code developed during most spikes is meant to be thrown away. If you find, given the constraints of the project, that you can’t accomplish a task, you’ve done your client a huge service.
 
 
-    Limit your scope Just because your spike isn’t meant to deliver production ready code, doesn’t mean you shouldn’t start with a plan. The more you intentionally you limit the scope of your spike from the beginning, the faster you can move towards your goal. What is really important? What knowns can be faked out, simulated, or stubbed to more quickly vet the unknowns?
+   * Limit your scope Just because your spike isn’t meant to deliver production ready code, doesn’t mean you shouldn’t start with a plan. The more you intentionally you limit the scope of your spike from the beginning, the faster you can move towards your goal. What is really important? What knowns can be faked out, simulated, or stubbed to more quickly vet the unknowns?
 
-    If the goal is too broad repeat, if not evaluate the solution The high-level goal for us was to determine if we can build an Excel reporting component. After we determined that we could in fact write out Excel files, we then had to determine if we could use conditional formatting. Once we found a library that supported conditional formatting, we needed to determine if we could use it for our purposes.
+   * If the goal is too broad repeat, if not evaluate the solution The high-level goal for us was to determine if we can build an Excel reporting component. After we determined that we could in fact write out Excel files, we then had to determine if we could use conditional formatting. Once we found a library that supported conditional formatting, we needed to determine if we could use it for our purposes.
 
- ----
- 
  
 You would pair with someone but spike with different approaches to solve the same problem. Each will research and code independently and compare their notes during the day.
 

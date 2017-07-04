@@ -45,7 +45,75 @@ QUnit.test('Test math operator function', function ( assert ) {
 });
 ```
 
-## When would you use each kind of test?
+## What is integration testing?
+
+Integration testing is a part of the software development process where individual software modules are combined and tested as a group in multiple ways.
+
+An integration test can be performed anywhere there is a coupling between two software systems.
+
+**Example**
+
+If you have to test the keyboard of a computer then it is a unit test but when you have to combine the keyboard and mouse of a computer together to see its working or not than it is an integration test.
+
+Unit testing is a prerequisite to performing integration testing on a system.
+
+### Why do it?
+
+An integration test is done to demonstrate that different pieces of the system work together.
+
+**Example**
+
+Testing the API used by Amazon to communicate with UPS, to ensure that customer orders which are ready to be shipped are collected by UPS.
+
+### Types of integration testing
+
+The three main integration testing strategies are as follows:
+
+### Top down integration
+
+#### What:
+
+Testing takes place from top to bottom, following the control flow or architectural structure (e.g. starting from the GUI or main menu). Components or systems are substituted by stubs.
+
+#### Advantages
+
+very consistent because the integration testing is basically performed in an environment that almost similar to that of reality
+
+#### Disadvantages
+
+Basic functionality is tested at the end of cycle
+
+### Bottom-Up Integration
+
+#### What
+
+Testing takes place from the bottom of the control flow upwards.
+
+#### Advantages
+
+Testing can be done together so that the product or application will be efficient and as per the customer specifications.
+
+#### Disadvantages
+
+We can catch the Key interface defects at the end of cycle
+
+It is required to create the test drivers for modules at all levels except the top control
+
+### Big Bang
+
+#### What
+
+In Big Bang integration testing all components or modules are integrated simultaneously, after which everything is tested as a whole
+
+#### Advantages
+
+Saves time.
+
+#### Disadvantages
+
+A lot riskier because it is very difficult to trace causes of failures.
+
+### When would you use each kind of test?
 
 Whilst unit tests ensure the functionality of small chunks of code such as functions and objects, integration tests are concerned with the interaction of larger units such as the interaction of modules, or the functioning of software when a database is included. Thus unit testing takes place early in the development process, and integration testing can only begin later.
 

@@ -10,14 +10,18 @@ analysis of the overview and breaking into tasks is a _functional spike_.
 
 gaining new information on proposed or prototyped implementation and strategy is a _technical spike_
 
+
+
 ## When and why would you use a spike?
 * When a technical difficulty threatens to hold up the system's development put a pair of developers on the problem for a week or two and reduce the potential risk
 * If your team is having trouble on estimating the size of the user stories 
 
 
 ## How would you successfully spike on a topic
-* It is good practice to create more than one solution (preferably 3+) to help avoid bias
-* Pair with someone but spike with different approaches to solve the same problem. Each will research and code independently and compare their notes during the day.
+ 
+You would pair with someone but spike with different approaches to solve the same problem. Each will research and code independently and compare their notes during the day.
+
+ Unlike production code, spikes are isolated, small, throwaway code; therefore, don't have to adhere to extreme programming  mandate by being pair-programmed code. This leads to multiple solutions which is better practice to avoid confirmation bias.
 
 ## Examples of when a spike would have helped in week 1
 

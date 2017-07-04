@@ -19,7 +19,7 @@ gaining new information on proposed or prototyped implementation and strategy is
 *    If accurate estimates are crucial because there is no contigency for project overrun.
     
  *   In building a complex architecture to allow the architecture to develop rather than being fully designed upfront as BUFD.
- *   Mitigating risk: Our customers frequently come to us with an idea and, under tight time constraints, we need to validate that we can develop a component using a technology that we’re not entirely familiar with as it is impossible to keep up with all of the technologies out there. We don’t want to make any promises we can’t keep. Undertaking projects with bad assumptions can turn out badly. It can be very unsatisfying for a client, very damaging to our reputation, and very expensive for both of us. This is an inherent risk in development. Focused technical spikes are a great way to mitigate this risk.
+ *   Mitigating risk: Customers frequently come to us with an idea and, under tight time constraints, we need to validate that we can develop a component using a technology that we’re not entirely familiar with as it is impossible to keep up with all of the technologies out there. We don’t want to make any promises we can’t keep. Undertaking projects with bad assumptions can turn out badly. It can be very unsatisfying for a client, very damaging to our reputation, and very expensive for both of us. This is an inherent risk in development. Focused technical spikes are a great way to mitigate this risk.
   
 
 

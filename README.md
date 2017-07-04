@@ -19,7 +19,7 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 + [Technical Spikes](./week-2/technical-spikes.md)
 
-+ [Istanbul](./week-2/istanbul.md)
++ [Test Coverage](./week2/test-coverage.md)
 
 ## Week 3 - APIs
 

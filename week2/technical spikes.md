@@ -4,7 +4,9 @@
 You would use a spike to figure out answers to tough technical or design problems. A spike solution is a very simple program to explore potential solutions. Spike are only built to address the problem under examination and ignore all other concerns. Most spikes are not good enough to keep, so expect to throw it away. The goal is reducing the risk of a technical problem or increase the reliability of a user story's estimate.
 
 ## When and why would you use a spike?
-When a technical difficulty threatens to hold up the system's development put a pair of developers on the problem for a week or two and reduce the potential risk
+* When a technical difficulty threatens to hold up the system's development put a pair of developers on the problem for a week or two and reduce the potential risk
+* If your team is having trouble on estimating the size of the user stories 
+
 
 ## How would you successfully spike on a topic
 

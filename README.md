@@ -15,7 +15,7 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 2 - testing
 
-+ [Unit vs Integration testing](./week-2/unit-vs-integration-testing.md)
++ [Unit vs Integration testing](./week2/unit-vs-integration-testing.md)
 
 + [Technical Spikes](./week-2/technical-spikes.md)
 

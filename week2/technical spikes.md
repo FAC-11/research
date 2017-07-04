@@ -9,6 +9,7 @@ You would use a spike to figure out answers to tough technical or design problem
 
 
 ## How would you successfully spike on a topic
+* It is good practice to create more than one solution (preferably 3+) to help avoid bias
 
 ## Examples of when a spike would have helped in week 1
 

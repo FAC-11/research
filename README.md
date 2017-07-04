@@ -5,13 +5,11 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 [Topics](https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/research-afternoon.md)
 + [Command Line](./week-1/command-line.md)
 
-+ Regular Expressions - [code snippet](./week-1/regex.js)
++ [Regular Expressions](./week1/regex.md)
 
-+ Accessibility - [Chosen website](link-to-published-site)  
-[Repo before](link-to-commit) | [Repo after](link-to commit)
++ [Accessibility](./week1/accessibility.md)
 
-+ CSS - [Chosen website](link-to-published-site)  
-[Repo before](link-to-commit) | [Repo after](link-to commit)
++ CSS - [Mobile First vs Responsive](./week1/mobileFirstvsResponsive.md), [BEM](./week2/bem.md) 
 
 ## Week 2 - testing
 

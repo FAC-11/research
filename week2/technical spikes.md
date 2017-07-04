@@ -15,6 +15,11 @@ gaining new information on proposed or prototyped implementation and strategy is
 ## When and why would you use a spike?
 * When a technical difficulty threatens to hold up the system's development put a pair of developers on the problem for a week or two and reduce the potential risk
 * If your team is having trouble on estimating the size of the user stories 
+  
+*    If accurate estimates are crucial because there is no contigency for project overrun.
+    
+ *   In building a complex architecture to allow the architecture to develop rather than being fully designed upfront as BUFD.
+
 
 
 ## How would you successfully spike on a topic

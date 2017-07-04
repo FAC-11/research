@@ -10,6 +10,9 @@ When a technical difficulty threatens to hold up the system's development put a 
 
 ## Examples of when a spike would have helped in week 1
 
+## Resources 
+[Extreme Programming](http://www.extremeprogramming.org/rules/spike.html)
+
 
 Spike is a part of a sprint.
 Sprints are directed by a coach, normally pair-programmed.

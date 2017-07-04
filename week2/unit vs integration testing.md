@@ -1,3 +1,5 @@
+# Unit VS Integration Testing
+
 ## What is Unit Testing?
 
 ### Individual Units of Code
@@ -42,3 +44,12 @@ QUnit.test('Test math operator function', function ( assert ) {
   assert.strictEqual(sum(1,2), 3, "sum(1,2) should return 3");
 });
 ```
+
+## When would you use each kind of test?
+
+Whilst unit tests ensure the functionality of small chunks of code such as functions and objects, integration tests are concerned with the interaction of larger units such as the interaction of modules, or the functioning of software when a database is included. Thus unit testing takes place early in the development process, and integration testing can only begin later.
+
+* Unit tests are used during the initial phase of development, typically as part of TDD.
+* Integration Tests can be used once significant modules have been written. If:
+    - the lower level components have been built, then bottom up (no simulation needed) testing can begin;
+    - if there are still unfinished dependencies, these can be simulated.

@@ -5,7 +5,8 @@ You would use a spike to figure out answers to tough technical or design problem
 
 
 Broadly:
-analysis of the overview and breaking into tasks is a _functional spike_
+analysis of the overview and breaking into tasks is a _functional spike_. 
+
 gaining new information on proposed or prototyped implementation and strategy is a _technical spike_
 
 ## When and why would you use a spike?

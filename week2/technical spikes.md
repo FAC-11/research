@@ -47,10 +47,10 @@ You would pair with someone but spike with different approaches to solve the sam
 
  Unlike production code, spikes are isolated, small, throwaway code; therefore, don't have to adhere to extreme programming  mandate by being pair-programmed code. This leads to multiple solutions which is better practice to avoid confirmation bias.
 
-## Examples of when a spike would have helped in week 1
-
 ## Resources 
 [Extreme Programming](http://www.extremeprogramming.org/rules/spike.html)
+[GDS blog on implementing technical spikes](https://blog.gds-gov.tech/technical-spike-when-and-what-not-to-do-1667da1a5acc)
+
 
 
 

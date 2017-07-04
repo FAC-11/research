@@ -21,6 +21,8 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 + [Istanbul](./week-2/istanbul.md)
 
++ [Software Development Methodology](./week-2/software-development-methodologies.md)
+
 ## Week 3 - APIs
 
 ## Week 4 - Node 1

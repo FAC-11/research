@@ -81,7 +81,7 @@ In our TDD romaniser example we have 100% coverage because all of our code is be
 See Aisha and Rebeca's demonstration!
 
 Here's Istanbul in use in a browser:
-![alt text](./images/"using istanbul in browser.png" "Screenshot 1")
+![Screenshot1](./images/"using istanbul in browser.png")
 
 ## Useful resources
 * DWYL's [Istanbul workshop](https://github.com/dwyl/learn-istanbul) shows how to install Istanbul as well as going into more details about test coverage.

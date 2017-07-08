@@ -3,13 +3,13 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 1 - toolkit
 [Topics](https://github.com/foundersandcoders/master-reference/blob/master/coursebook/week-1/research-afternoon.md)
-+ [Command Line](./week-1/command-line.md)
++ [Command Line](./week1/command-line.md)
 
 + [Regular Expressions](./week1/regex.md)
 
 + [Accessibility](./week1/accessibility.md)
 
-+ CSS - [Mobile First vs Responsive](./week1/mobileFirstvsResponsive.md), [BEM](./week2/bem.md) 
++ CSS - [Mobile First vs Responsive](./week1/mobileFirstvsResponsive.md), [BEM](./week2/bem.md)
 
 ## Week 2 - testing
 

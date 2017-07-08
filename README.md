@@ -17,7 +17,7 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 + [Technical Spikes](./week2/technical%20spikes.md)
 
-+ [Istanbul](./week-2/istanbul.md)
++ [Test Coverage](./week2/test-coverage.md)
 
 + [Software Development Methodology](./week-2/software-development-methodologies.md)
 

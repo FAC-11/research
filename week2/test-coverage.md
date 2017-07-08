@@ -57,7 +57,7 @@ Alternatively you can insert the below line into the scripts section of your pac
 >
 > npm run coverage
 
-This will create a directory in your project called coverage where you will find the generated coverage reports. 
+This will create a directory in your project called coverage where you will find the generated coverage reports.
 
 How istanbul works:
 --------------------
@@ -78,7 +78,7 @@ In our TDD romaniser example we have 100% coverage because all of our code is be
 
 
 ## Use Istanbul/nyc to calculate your code coverage for the TDD workshop.
-See demonstration!
+See demonstration! Code is in [this repo](https://github.com/astroash/romanizer).
 
 Here's Istanbul in use in a browser:
 ![Screenshot1](./images/using-istanbul-in-browser.png)

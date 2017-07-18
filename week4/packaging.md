@@ -12,7 +12,7 @@ Whenever a class A uses another class or interface B, then A depends on B. A can
 
 For example, in order for a bar to function properly the bar will be dependent on staff and stock which will be the dependencies.
 
-[Bar Analogy](research/week4/Untitled Diagram.jpg)
+[Bar Analogy](https://raw.githubusercontent.com/FAC-11/research/master/week4/Untitled%20Diagram.jpgg)
 
 
 **Why might you want to use a dependency in your project, rather than writing the code from scratch?**

@@ -66,7 +66,7 @@ Some actions, such as reading a file, take an indeterminate amount of time. For 
 **Synchonrous** AKA **Blocking functions**: these are functions which run in the normal flow of the program. They are also known as 'blocking' because they stop the program from continuing until they return.
 For example:
 ```js
-fs.readFileSync(filePath);
+fs.readFileSync(filePath, callBack);
 console.log('read file has finished now'); //the console.log will only run once readFileSync has returned.
 ```
 **Asynchronous functions**: these run outside the program flow, and thus do not block the program from continuing. This means the program can do other things whilst the async function is still doing its thing.

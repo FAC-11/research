@@ -41,6 +41,8 @@ Manually trying to install the dependencies would take a long time and could lea
 
 package.json is a file used by node package manager to store meta data about your project for e.g information that is used to install the project on your local machine, information about dependencies that need to be installed so your project can run successfully.
 
+npm init will initialise your project by asking you questions about your app which will be saved as meta data inside a file called package.json which will be created when you initialise your project.
+
 
 **How do you use an installed package in your code?**
 

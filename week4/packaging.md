@@ -34,7 +34,7 @@ A package manager or package management system is a collection of software tools
 
 **How does it help with dependencies?**
 
-Manually trying to install the dependencies would take a long time and could lead to errors building your project. With a package manager, all the dependencies can be installed in the correct order autonomuously, and 
+Manually trying to install the dependencies would take a long time and could lead to errors building your project. With a package manager, all the dependencies can be installed in the correct order autonomuously, and
 
 
 **What is package.json, and what does npm init do?**

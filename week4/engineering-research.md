@@ -56,14 +56,14 @@ The main purpose to use a tool like Browserify is that enables you to modularize
 [Extra reading](http://read.humanjavascript.com/ch04-organizing-your-code.html)
 
 
-## Asyncronous functions: 
+## Asynchronous functions: 
 
 ### Why should you use asynchronous forms of functions wherever possible in Node?
-Some actions, such as reading a file, take an indeterminate amount of time. For example, a file 20,000 lines long will take longer to read than a file which is 20 lines long. You should always use async functions as it allows you to do other things at the same time. If you did everything synchronously your programs will be slow.
+Some actions, such as reading a file, take an indeterminate amount of time. For example, a file 20,000 lines long will take longer to read than a file which is 20 lines long. You should always use async functions as it allows you to do other things at the same time. If you do everything synchronously your programs will be slow.
 
- Async function names in core node module look like this: ```fs.readFile```. The synchronous versions of them look like this: ```fs.readFileSync```. 
+Async function names in core node module look like this: ```fs.readFile```. The synchronous versions of them look like this: ```fs.readFileSync```. 
 
-**Synchonrous** AKA **Blocking functions**: these are functions which run in the normal flow of the program. They are also known as 'blocking' because they stop the program from continuing until they return.
+**Synchronous** AKA **Blocking functions**: these are functions which run in the normal flow of the program. They are also known as 'blocking' because they stop the program from continuing until they return.
 For example:
 ```js
 fs.readFileSync(filePath);
@@ -72,7 +72,7 @@ console.log('read file has finished now'); //the console.log will only run once 
 **Asynchronous functions**: these run outside the program flow, and thus do not block the program from continuing. This means the program can do other things whilst the async function is still doing its thing.
 ```js
 fs.readFile(filePath, callBack);
-console.log('read file may or may not still be oing its thing now'); //the console.log runs immediately without waiting for readFile to return
+console.log('read file may or may not still be doing its thing now'); //the console.log runs immediately without waiting for readFile to return
 ```
 
 ### What are error-first callbacks, and why is it important to follow that pattern in your own code? 

@@ -43,15 +43,15 @@ Every time a scripting language is used, the actual implementation of the 'highe
 
 ## Injection Prevention Rules
 
-# Perform proper input validation
+#### Perform proper input validation
 
 Perform proper input validation. Positive or “whitelist” input validation with appropriate canonicalization is also recommended, but is not a complete defense as many applications require special characters in their input. Any input validation needs to reside on, or be replicated on, the backend.
 
-# Use a safe API
+#### Use a safe API
 
 The preferred option is to use a safe API which avoids the use of the interpreter entirely or provides a parameterized interface. Be careful of APIs, such as stored procedures, that are parameterized, but can still introduce injection under the hood.
 
-# Contextually escape user data
+#### Contextually escape user data
 
 If a parameterized API is not available, you should carefully escape special characters using the specific escape syntax for that interpreter.
 

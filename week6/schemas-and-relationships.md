@@ -14,5 +14,7 @@ The physical schema is the structure and layout of the database in practice - ho
 ## What are primary keys and why do we need them?
 A primary key is a number which the database uses to link one table with another. It is a **unique, autoincrementing ID** which is filled in by the database - in other words it is **NEVER NULL**. A primary ID number will only ever be issued once; if, for example, you delete the latest record with an ID of `7` in your table `FAC`, and then make a new record, the new record's ID will become `8`. This is **really useful**! If we need to refer to a record in separate table, we can import this ID as a **foreign key**, to be sure we are referring to the **actual record**.
 
+![Why we need primary keys](./primary-key.png)
+
 ## A mock database schema for FAC
 ![Schema for FAC](./fac-schema.jpg)

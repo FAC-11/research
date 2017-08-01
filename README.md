@@ -30,6 +30,7 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 ## Week 6 - Postgres
 + [Schema and Relationships](./week6/schemas-and-relationships.md)
 + [Testing](./week6/Testing.md)
++ [Script Injections/ Safety Issues] (./week6/Script-Injection.md)
 
 ## Week 7 - Authentication
 

@@ -28,6 +28,7 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 ## Week 5 - Node 2
 
 ## Week 6 - Postgres
++ [Schema and Relationships](./week6/schemas-and-relationships.md)
 
 ## Week 7 - Authentication
 

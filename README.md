@@ -34,5 +34,6 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 7 - Authentication
 + [Attacks](./week7/attacks.md)
++ [Stateless vs Stateful Auth](./week7/stateless-vs-stateful.md)
 
 ## Week 8 - Express

@@ -33,5 +33,6 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 + [Script Injections/ Safety Issues](./week6/Script-Injection.md)
 
 ## Week 7 - Authentication
++ [Attacks](./week7/attacks.md)
 
 ## Week 8 - Express

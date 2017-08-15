@@ -1,5 +1,5 @@
 # Middleware 
-## What is ![](http://blog.soshace.com/wp-content/uploads/express.png =120x)Middleware 
+## What is <img src="http://blog.soshace.com/wp-content/uploads/express.png" height="40px">Middleware 
 Middleware are functions that are run after a request is received but before a response is returned.
 
 __More explicitly__
@@ -17,7 +17,7 @@ Middleware functions can perform the following tasks:
 
 If the current middleware function does not end the request-response cycle, it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.
 
-## What are some examples of useful ![](http://blog.soshace.com/wp-content/uploads/express.png =120x)middleware?
+## What are some examples of useful <img src="http://blog.soshace.com/wp-content/uploads/express.png" height="40px">middleware?
 
 Don't forget to ```npm install``` your middleware before running it in your code! 
 

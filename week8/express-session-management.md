@@ -57,6 +57,8 @@ To create your own basic app using express-session follow the steps below. This 
 6. run the app.js file
 7. go to http://localhost:3000/foo or [/bar](http://localhost:3000/foo) to see the page views increment.
 
+If you would like to understand the `resave` and `saveUninitialized` options, see this [stackoverflow] (https://stackoverflow.com/questions/40381401/when-use-saveuninitialized-and-resave-in-express-session)
+
 ```js
 var express = require('express')
 var parseurl = require('parseurl')

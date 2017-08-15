@@ -151,3 +151,4 @@ function addUser(details) {
 ```
 [more reading](https://medium.com/@shahata/why-i-wont-be-using-fetch-api-in-my-apps-6900e6c6fe78)
 [more reading](https://www.tjvantoll.com/2015/09/13/fetch-and-errors/)
+[repl example](https://repl.it/KKeT/1)

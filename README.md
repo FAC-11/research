@@ -37,3 +37,4 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 + [Stateless vs Stateful Auth](./week7/stateless-vs-stateful.md)
 
 ## Week 8 - Express
++ [Express Middlewares](./week8/express-middlewares.md)

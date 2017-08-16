@@ -37,3 +37,6 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 
 ## Week 8 - Express
 + [Session management in Express](./week8/express-session-management.md)
++ [Templating and Rendering](./week8/templating_rendering.md)
++ [Express Middleware](./week8/express-middlewares.md)
++ [Promises and Fetch](./week8/Promises-and-Fetch.md)
